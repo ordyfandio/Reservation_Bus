@@ -1,0 +1,281 @@
+.nav {
+  position: relative;
+  z-index: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 77%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 50px;
+  line-height: 25px;
+}
+
+.nav .logo {
+  font-size: 2.2em;
+}
+
+.nav .navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav .navBar .navItems {
+  padding: 0 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navLinks {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+#marker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  right: 10px;
+  position: absolute;
+  width: 0;
+  height: 3px;
+  border-radius: 4px;
+  background: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  bottom: 0px;
+}
+
+.heroPage {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.heroPage .heroView {
+  height: 100%;
+  width: 100%;
+}
+
+.heroPage .heroView img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  background-size: cover;
+  width: 100%;
+}
+
+.logo {
+  top: 0;
+  margin-top: -30px;
+}
+
+.logo .img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 80px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navItems {
+  list-style: none;
+}
+
+.navLinks {
+  text-decoration: none;
+}
+
+.reservation_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 77%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  top: 100px;
+  position: relative;
+  margin-top: 250px;
+  background-color: #fff;
+  padding-bottom: 150px;
+  border-radius: 10px;
+}
+
+.reservation_form form {
+  width: 100%;
+  padding: 0 50px;
+}
+
+.reservation_form form .form_control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #000;
+}
+
+.reservation_form #email, .reservation_form #phone_num {
+  width: 100%;
+  height: 50px;
+}
+
+.reservation_form input[type="text"], .reservation_form select,.reservation_form input[type="number"],.reservation_form input[type="datetime-local"],.reservation_form input[type="date"], .reservation_form input[type="email"] {
+  width: 49%;
+  height: 50px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.reservation_form input[placeholder] {
+  padding-left: 25px;
+  font-size: 1em;
+}
+
+.reservation_form option[value] {
+  padding-left: 25px;
+}
+
+.reservation_form h2 {
+  color: #000;
+  margin-top: 80px;
+  margin-bottom: 56px;
+  font-size: 4em;
+}
+
+label {
+  color: #000;
+}
+
+input[type="number"] {
+  padding: 10px 0;
+}
+
+.submit_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.submit_form .btn {
+  width: 30%;
+  height: 50px;
+  cursor: pointer;
+  background: #0069aa;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label {
+  position: relative;
+  padding-left: 28px;
+  padding-top: 10px;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+  color: #666;
+}
+
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 1;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+  background: #fff;
+}
+
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: #00f;
+  position: absolute;
+  top: 14px;
+  left: 4px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+[type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+[type="radio"]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.input {
+  width: 100%;
+}
+
+#phone {
+  width: 950px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+.arrow {
+  display: none;
+  padding-left: 10px;
+  color: #fff;
+}
+
+.btn:hover .arrow {
+  display: inline;
+  
+}
+.phoneNum {
+  margin-left: 15px;
+  color: #666;
+}
+
+.ml3 {
+  font-weight: 900;
+  font-size: 3.5em;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 200px;
+  left: 440px;
+}
+
+#footer {
+  position: relative;
+  background: #fff;
+}
+/*# sourceMappingURL=styles.css.map */

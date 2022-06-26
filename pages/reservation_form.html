@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../asset/logo/logo.jpg">
+        <link rel="stylesheet" href="../SCSS/dist/css/styles.css">
+        <link rel="icon" href="../asset/logo/logo.jpg">
+        <<title>Cartel Travel Services</title>
+        <link rel="stylesheet" href="../css/reservation.css">
+        <script language="javascript" src="../js/index.js" defer></script>
+        <!-- <link rel="stylesheet" href="../SCSS/dist/css/css/bootstrap.min.css"> -->
+        <!-- <link rel="stylesheet" href="../SCSS/dist/css/css/bootstrap-select.css">bootstrap-select-CSS -->
+        <!-- <link href="../SCSS/dist/css/css/style.css" rel="stylesheet" type="text/css" media="all" /> -->
+        <!--style.css -->
+        <!-- <link rel="stylesheet" href="../SCSS/dist/css/css/flexslider.css" type="text/css" media="screen" /> -->
+        <!-- flexslider-CSS -->
+        <!-- <link rel="stylesheet" href="./SCSS/dist/css/css/font-awesome.min.css" /> -->
+        <link rel="stylesheet" href="../font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+        <!-- fontawesome-CSS -->
+        <!-- <link rel="stylesheet" href="../SCSS/dist/css/css/menu_sideslide.css" type="text/css" media="all"> -->
+        <!-- Navigation-CSS -->
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script> -->
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <nav class="navbar">
+                    <img src="../asset/logo/logo.jpg" class="logo">
+                    <ul class="menu">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../pages/Reservation.html">Reservation</a></li>
+                        <li><a href="../pages/About.html">About US</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="heroPage">
+            <div class="heroView">
+                <img src="../asset/images/img_hero.jpeg" alt="" class="desktop">
+            </div>
+        </section>
+        <section class="reservation_form">
+           <form action="">
+              <h2>Reserve now !</h2>
+              <div class="form_control">
+                <input type="text" placeholder="Surname">
+                <input type="text" placeholder="Name">
+            </div><br><br>
+            <div class="form_control">
+                <select id="Gender">
+                    <option value="" disabled selected hidden>Choose Gender...</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Others">Others</option>
+                </select>
+                <input id="date" type="text" placeholder="Enter CNI Number">
+            </div><br><br>
+            <input type="email" name="email" id="email" placeholder="Email Address"><br><br><br>
+            <input id="phone" type="tel" name="phone" />
+            <br><br>
+            <label for="">Is your phone number available on Whatsapp</label><br><br>
+            <input type="checkbox" name="" id="phoneNum"><label class="phoneNum" for="phoneNum">Yes</label><br><br>
+            <input type="number" placeholder="Choose Seat Number" min="1" max="51"><br><br>
+            <div class="payment">
+                <p>Payment Method</p>
+                <img src="../asset/images/download.png" class="py_method">
+                <img src="../asset/images/orangeMoney.png" class="py_method">
+            </div><br><br>
+            <div class="submit_form">
+                <button class="btn_link" type="submit"><a href="../pages/reservation_form.html">Submit</a></button>
+             </div>
+           </form>
+        </section>
+        <div class="div_bus_seat">
+            <img src="../asset/images/bus.png" class="bus_seat">
+        </div>
+    </body>
+</html>

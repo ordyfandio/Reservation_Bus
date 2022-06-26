@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    background-color: #fff;
+    box-shadow:2px 2px 3px  #22252347;
+    z-index:1000;
+}
+nav{
+    width: 100%;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 3px;
+    width: 180px;
+    height: 70px;
+}
+li{
+    list-style-type: none;
+    font-family: sans-serif;
+}
+li>a:hover{
+    color: #ff841f;
+    transition: all .5s ease-in-out;
+}
+.menu{
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    align-items: center;
+}
+.sous-menu .liens{
+    position: absolute;
+    top: 310px;
+    right: 140px;
+    display: none;
+    width: 210px;
+    background-color: #fff;
+    padding: 5px;
+    margin-left: 3px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    text-align: center;
+    z-index: 1000;
+}
+.liens .lien{
+    margin: 20px 0;
+}
+.lien-deroulant:hover .sous-menu .liens{
+    display: inline-block;
+    top: 63px;
+    right: 5px;
+    transition: all .8s;
+}
+.btn:hover{
+    width: 100%;
+    background-color: #ff841f;
+    transition: all .5s ease-in-out;
+ }
+ /* reservation form */
+.bus_detail{
+    display: flex;
+    justify-content: space-around;
+}
+.visible{    
+    opacity: 1;
+    transform: translateY(0);
+    transition: 1s cubic-bezier(.5,0,0,1);
+}
+.invisible{
+    opacity: 0;
+    transform: translateY(-30px);
+    display: none;
+}
+/*  */
+.payment>.py_method{
+   margin-left: 180px;
+   cursor: pointer;
+}
+.py_method{
+    width: 150px;
+
+}
+.div_bus_seat{
+  position: absolute;
+  top: 80px;
+  position: fixed;
+}
+.sign-in-wrapper{
+    margin-top: 80px;
+}
+.error{
+    text-align: center;
+    background-color: #f1b7b7;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+}
+.success{
+    text-align: center;
+    background-color: #64f25c;
+    color:  #05531d;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+}
+
+
+
+
+/* Footer */
+
+.wthree-foo-grids{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.wthree-footer-grid{
+    display: inline-block;
+    width: 100%;
+    margin-left: 108px;
+}
+.wthree-footer-grid>p{
+    margin-top: 18px;
+    color: rgba(128, 128, 128, 0.477);
+}
+.wthree-footer-grid>address{
+    margin-top: 18px;
+}
+.col-3{
+    float: left;
+    width: 33.33%;
+}
+.footer-head{
+    color: #0069AA;
+    font-size: 1.8em;
+}
+.ul_footer{
+    margin-top: 18px;
+}
+.ul_footer>li:hover{
+    font-size: 1.1em;
+    transition: all .5s ease-in-out;
+}
+.hq{
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #0069AA;
+}
+.location{
+    display: flex;
+}
+.location>li{
+    margin-top: 12px;
+}
+.agileits-footer-bottom{
+    margin-top: 10px;
+    width: 100%;
+    background-color: rgba(3, 12, 37, 0.655);
+    color: #fff;
+}
+.container_footer{
+    width: 100%;
+    padding: 8px;
+    margin-top: 22px;
+    text-align: center;
+    color: #fff;
+}
+.w3-footer-social-icons{
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.w3-footer-logo{
+    margin-top: 15px;
+}
+.w3-footer-social-icons>ul{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.w3-footer-social-icons>ul>li{
+    margin-left: 12px;
+}
+.copyrights{
+    margin-top: 15px;
+    color: #fff;
+}
+.submit_form{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn_link{
+   width: 250px;
+   padding: 12px;
+   cursor: pointer;
+   background-color: #0069AA;
+   border-radius: 5px;
+   border: 1px solid transparent;
+}
+.btn_link>a{
+    color: #fff;
+}
+.btn_link:hover{
+    background-color: #ff841f;
+    transition: all .5s ease-in-out;
+}
+   

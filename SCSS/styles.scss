@@ -1,0 +1,13 @@
+@import './_navBar', './hero', './reset', './reservationForm';
+.ml3 {
+  font-weight: 900;
+  font-size: 3.5em;
+  position: absolute;
+  display: flex;
+  top: 200px;
+  left: 440px;
+}
+#footer{
+  position: relative;
+    background: #fff;
+}

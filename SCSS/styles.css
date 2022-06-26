@@ -1,0 +1,116 @@
+.nav {
+  position: relative;
+  z-index: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 77%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 50px;
+  line-height: 25px;
+}
+
+.nav .logo {
+  font-size: 2.2em;
+}
+
+.nav .navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav .navBar .navItems {
+  padding: 0 10px;
+}
+
+.navLinks {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+#marker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  right: 10px;
+  position: absolute;
+  width: 0;
+  height: 3px;
+  border-radius: 4px;
+  background: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  bottom: 0px;
+}
+
+.heroPage {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.heroPage .heroView {
+  height: 100%;
+  width: 100%;
+}
+
+.heroPage .heroView img {
+  height: 100%;
+  background-size: cover;
+  width: 100%;
+}
+
+.logo {
+  top: 0;
+  margin-top: -100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navItems {
+  list-style: none;
+}
+
+.navLinks {
+  text-decoration: none;
+}
+
+.reservation_form {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 77%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  top: 70px;
+  position: relative;
+  border: 1px solid red;
+  margin-top: 70px;
+}
+.reservation_form form {
+  width: 100%;
+  padding: 0 50px;
+}
+
+.reservation_form input[type="text"] {
+  width: 10%;
+  height: 50px;
+}
+
+.reservation_form h2 {
+  color: #fff;
+  margin-top: 80px;
+}
+/*# sourceMappingURL=styles.css.map */
